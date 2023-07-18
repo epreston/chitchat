@@ -1,10 +1,10 @@
 import './css/style.css';
-import viteLogoUrl from './img/vite.svg';
+import openaiLogoUrl from './img/openai-lockup.svg';
 
 document.querySelector('#app').innerHTML = `
-  <a href="https://vitejs.dev" target="_blank">
-    <img src="${viteLogoUrl}" class="logo" alt="Vite logo" />
+  <a href="https://openai.com/" target="_blank">
+    <img src="${openaiLogoUrl}" class="logo" alt="openai logo" />
   </a>
-  <h1>Hello Vite !</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+  <h1>Hello ChatGPT !</h1>
+  <a href="https://platform.openai.com/docs/" target="_blank">Documentation</a>
 `;
