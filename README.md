@@ -1,11 +1,6 @@
-# Vite with Vitest Web Project
+# ChitChat
 
-Repo Template: vite, vitest, eslint.
-
-Includes:
-
-- @vitest/coverage-c8
-- @vitest/web-worker
+ChatGPT Chatbot Experiment
 
 ## Setup
 
