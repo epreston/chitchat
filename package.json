@@ -8,7 +8,7 @@
     "chatgpt",
     "chatbot"
   ],
-  "author": "",
+  "author": "Ed Preston",
   "license": "MIT",
   "files": [
     "dist"
@@ -24,7 +24,7 @@
     "preview": "vite preview",
     "preview-host": "vite preview --host",
     "start": "vite --open",
-    "lint": "eslint src/**/*.js test/**/*.js",
+    "lint": "eslint src/**/*.js test/**/*.js cli/**/*.js",
     "test": "vitest",
     "test-run": "vitest run",
     "test-coverage": "vitest run --coverage"
