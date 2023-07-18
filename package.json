@@ -4,7 +4,10 @@
   "name": "chitchat",
   "version": "0.1.0",
   "description": "ChatGPT Chatbot Experiment",
-  "keywords": [],
+  "keywords": [
+    "chatgpt",
+    "chatbot"
+  ],
   "author": "",
   "license": "MIT",
   "files": [
