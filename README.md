@@ -4,7 +4,13 @@ ChatGPT Chatbot Experiment
 
 ## Setup
 
-Download [Node.js](https://nodejs.org/en/download/).
+Install [Node.js](https://nodejs.org/en/download/) and create an [OpenAI API key](https://platform.openai.com/account/api-keys).
+
+Create a file in the root directory named `.env` containing:
+
+```
+OPENAI_API_KEY=YOURKEY
+```
 
 Run the following commands:
 
@@ -35,6 +41,7 @@ npm run dev
 
 | Item    | Reference           |
 | ------- | ------------------- |
+| OpenAI  | https://openai.com/ |
 | Node.js | https://nodejs.org/ |
 | Vite    | https://vitejs.dev/ |
 | Vitest  | https://vitest.dev/ |
