@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "empty-project",
-  "version": "0.1.5",
-  "description": "Repo Template: vite, vitest, eslint.",
   "type": "module",
+  "name": "chitchat",
+  "version": "0.1.0",
+  "description": "ChatGPT Chatbot Experiment",
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -11,9 +11,9 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.15.0"
+    "node": ">=18.16.1"
   },
-  "packageManager": "npm@9.6.2",
+  "packageManager": "npm@9.8.0",
   "scripts": {
     "dev": "vite",
     "dev-host": "vite --host",
