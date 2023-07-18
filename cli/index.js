@@ -3,6 +3,7 @@ import readlineSync from 'readline-sync';
 import chalk from 'chalk';
 
 async function main() {
+  console.clear();
   console.log(chalk.bold.green('ChatGPT ChitChat - CTRL+C or type exit'));
 
   const chatHistory = [];
