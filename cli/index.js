@@ -14,15 +14,20 @@ async function main() {
     process.exit();
   });
 
+  const context = [{ role: 'system', content: 'Answer in a brief style.' }];
+  console.log(chalk.grey('System: ') + context[0].content);
+
   while (doLoop) {
-    const userInput = readlineSync.question(chalk.yellow('You: '));
+    const userInput = readlineSync.question(chalk.yellow('User: '));
 
     try {
       // Construct messages by iterating over the history
-      const messages = chatHistory.map(([role, content]) => ({
+      const history = chatHistory.map(([role, content]) => ({
         role,
         content,
       }));
+
+      const messages = [...context, ...history];
 
       // Add latest user input
       messages.push({ role: 'user', content: userInput });
@@ -37,11 +42,11 @@ async function main() {
       const completionText = completion.data.choices[0].message.content;
 
       if (userInput.toLowerCase() === 'exit') {
-        console.log(chalk.grey('Assistant: ') + completionText);
+        console.log(chalk.blue('Assistant: ') + completionText);
         return;
       }
 
-      console.log(chalk.grey('Assistant: ') + completionText);
+      console.log(chalk.blue('Assistant: ') + completionText);
 
       // Update history with user input and assistant response
       chatHistory.push(['user', userInput]);
