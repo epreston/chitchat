@@ -3,13 +3,14 @@ import readlineSync from 'readline-sync';
 import colors from 'colors';
 
 async function main() {
-  console.log(colors.bold.green('ChatGPT ChitChat - CTRL+C to exit'));
+  console.log(colors.bold.green('ChatGPT ChitChat - CTRL+C or type exit'));
 
   const chatHistory = [];
   let doLoop = true;
 
   process.on('SIGINT', () => {
     doLoop = false;
+    process.exit();
   });
 
   while (doLoop) {
