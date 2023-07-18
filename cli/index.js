@@ -1,9 +1,9 @@
 import openai from './config/open-ai.js';
 import readlineSync from 'readline-sync';
-import colors from 'colors';
+import chalk from 'chalk';
 
 async function main() {
-  console.log(colors.bold.green('ChatGPT ChitChat - CTRL+C or type exit'));
+  console.log(chalk.bold.green('ChatGPT ChitChat - CTRL+C or type exit'));
 
   const chatHistory = [];
   let doLoop = true;
@@ -14,7 +14,7 @@ async function main() {
   });
 
   while (doLoop) {
-    const userInput = readlineSync.question(colors.yellow('You: '));
+    const userInput = readlineSync.question(chalk.yellow('You: '));
 
     try {
       // Construct messages by iterating over the history
@@ -36,17 +36,18 @@ async function main() {
       const completionText = completion.data.choices[0].message.content;
 
       if (userInput.toLowerCase() === 'exit') {
-        console.log(colors.grey('Assistant: ') + completionText);
+        console.log(chalk.grey('Assistant: ') + completionText);
         return;
       }
 
-      console.log(colors.grey('Assistant: ') + completionText);
+      console.log(chalk.grey('Assistant: ') + completionText);
 
       // Update history with user input and assistant response
       chatHistory.push(['user', userInput]);
       chatHistory.push(['assistant', completionText]);
     } catch (error) {
-      console.error(colors.red(error));
+      console.error(chalk.red(error));
+      process.exit(1);
     }
   }
 }
