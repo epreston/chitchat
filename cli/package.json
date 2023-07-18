@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "chitchat-cli",
+  "version": "0.1.0",
+  "description": "ChatGPT Chatbot Experiment - CLI",
+  "keywords": [
+    "chatgpt",
+    "chatbot",
+    "cli"
+  ],
+  "author": "Ed Preston",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.16.1"
+  },
+  "packageManager": "npm@9.8.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
