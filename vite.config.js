@@ -24,5 +24,11 @@ export default defineConfig({
     threads: !process.env.GITHUB_ACTIONS,
     setupFiles: ['./scripts/vitest-setup.js'],
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
+    coverage: {
+      provider: 'v8',
+      reporter: ['html'],
+      // reporter: ['text', 'html'], // default
+      // reporter: ['text'],
+    },
   },
 });
