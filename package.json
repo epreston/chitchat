@@ -14,7 +14,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.16.1"
+    "node": ">=18.17.0"
   },
   "packageManager": "npm@9.8.0",
   "browserslist": [
