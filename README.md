@@ -1,6 +1,6 @@
 # ChitChat
 
-ChatGPT Chatbot Experiment
+ChatGPT Chatbot Experiments with OpenAI's public API.
 
 ## Setup
 
@@ -12,7 +12,7 @@ Create a file named `.env` in both the root and `cli` directory with the followi
 OPENAI_API_KEY=YOURKEY
 ```
 
-Validate the API key and configuration using the server CLI:
+Validate the API key and configuration using the CLI:
 
 ```bash
 # move to cli directory
@@ -21,7 +21,7 @@ cd cli
 # install dependencies
 npm install
 
-# start the server cli
+# start the cli
 npm run start
 ```
 
