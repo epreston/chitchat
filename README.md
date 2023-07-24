@@ -52,13 +52,15 @@ npm run dev
 
 ## References
 
-| Item    | Reference           |
-| ------- | ------------------- |
-| OpenAI  | https://openai.com/ |
-| Node.js | https://nodejs.org/ |
-| Vite    | https://vitejs.dev/ |
-| Vitest  | https://vitest.dev/ |
-| ESLint  | https://eslint.org/ |
+| Item         | Reference                |
+| ------------ | ------------------------ |
+| OpenAI       | https://openai.com/      |
+| Node.js      | https://nodejs.org/      |
+| Vite         | https://vitejs.dev/      |
+| Vitest       | https://vitest.dev/      |
+| ESLint       | https://eslint.org/      |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
 
 ## License
 
