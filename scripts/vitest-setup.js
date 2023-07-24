@@ -57,7 +57,8 @@ expect.extend({
       const msgs = warn.mock.calls.map((args) => args[0]).join('\n - ');
       return {
         pass: false,
-        message: () => `expected "${received}" to have been warned last.\n\nActual messages:\n\n - ${msgs}`,
+        message: () =>
+          `expected "${received}" to have been warned last.\n\nActual messages:\n\n - ${msgs}`,
       };
     }
   },
@@ -104,6 +105,8 @@ afterEach(() => {
     });
   warn.mockRestore();
   if (nonAssertedWarnings.length) {
-    throw new Error(`test case threw unexpected warnings:\n - ${nonAssertedWarnings.join('\n - ')}`);
+    throw new Error(
+      `test case threw unexpected warnings:\n - ${nonAssertedWarnings.join('\n - ')}`
+    );
   }
 });
