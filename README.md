@@ -2,6 +2,8 @@
 
 ChatGPT Chatbot Experiments with OpenAI's public API.
 
+[![CI][ci-badge]][ci-url]
+
 ## Setup
 
 Install [Node.js](https://nodejs.org/en/download/) and create an [OpenAI API key](https://platform.openai.com/account/api-keys).
@@ -65,3 +67,6 @@ npm run dev
 ## License
 
 This project is released under the MIT [License](LICENSE).
+
+[ci-badge]: https://github.com/epreston/chitchat/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/chitchat/actions/workflows/ci.yml
