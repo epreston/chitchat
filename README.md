@@ -69,4 +69,4 @@ npm run dev
 This project is released under the MIT [License](LICENSE).
 
 [ci-badge]: https://github.com/epreston/chitchat/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/epreston/chitchat/actions/workflows/ci.yml
+[ci-url]: https://github.com/epreston/chitchat/actions
