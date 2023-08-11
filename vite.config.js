@@ -11,12 +11,9 @@ export default defineConfig({
   //   // ensure inline tests are removed in production builds
   //   'import.meta.vitest': 'undefined',
   // },
-  // server: {
-  //   open: '/index.html',
-  // },
   // plugins: [vue(), splitVendorChunkPlugin()],
   build: {
-    target: ['es2022', 'edge112', 'firefox112', 'chrome112', 'safari16.4', 'ios16.4'],
+    target: ['es2022', 'edge112', 'firefox112', 'chrome112', 'safari16.4', 'ios16.4']
   },
   test: {
     // globals: true,
@@ -26,9 +23,7 @@ export default defineConfig({
     // includeSource: ['src/**/*.{js,ts}'], // enable inline tests
     coverage: {
       provider: 'v8',
-      reporter: ['html'],
-      // reporter: ['text', 'html'], // default
-      // reporter: ['text'],
-    },
-  },
+      reporter: ['text-summary', 'html']
+    }
+  }
 });
