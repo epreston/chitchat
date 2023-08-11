@@ -52,17 +52,22 @@ npm run dev
 | test-run      | `npm run test-run`      | Run unit tests and exit                                   |
 | test-coverage | `npm run test-coverage` | Generate a test coverage report                           |
 
-## References
+## Tools
 
 | Item         | Reference                |
 | ------------ | ------------------------ |
-| OpenAI       | https://openai.com/      |
 | Node.js      | https://nodejs.org/      |
 | Vite         | https://vitejs.dev/      |
 | Vitest       | https://vitest.dev/      |
 | ESLint       | https://eslint.org/      |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |
+
+## References
+
+| Item         | Reference                |
+| ------------ | ------------------------ |
+| OpenAI       | https://openai.com/      |
 
 ## License
 
