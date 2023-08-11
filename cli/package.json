@@ -13,7 +13,7 @@
   "license": "MIT",
   "main": "index.js",
   "engines": {
-    "node": ">=18.17.0"
+    "node": ">=18.17.1"
   },
   "packageManager": "npm@9.8.1",
   "scripts": {
