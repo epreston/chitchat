@@ -48,8 +48,8 @@ npm run dev
 | preview-host  | `npm run preview-host`  | Start a local server to preview production build and host |
 | start         | `npm run start`         | Start a dev server and open in web browser                |
 | lint          | `npm run lint`          | Run static code analysis                                  |
-| test          | `npm run test`          | Run unit tests                                            |
-| test-run      | `npm run test-run`      | Run unit tests and exit                                   |
+| test          | `npm run test`          | Run unit tests and exit                                   |
+| test-watch    | `npm run test-watch`    | Run unit tests and watch for changes                      |
 | test-coverage | `npm run test-coverage` | Generate a test coverage report                           |
 
 ## Tools
@@ -65,9 +65,9 @@ npm run dev
 
 ## References
 
-| Item         | Reference                |
-| ------------ | ------------------------ |
-| OpenAI       | https://openai.com/      |
+| Item   | Reference           |
+| ------ | ------------------- |
+| OpenAI | https://openai.com/ |
 
 ## License
 
