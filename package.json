@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "chitchat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ChatGPT Chatbot Experiment",
   "keywords": [
     "chatgpt",
@@ -14,7 +14,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.17.1"
+    "node": ">=18.17.1 || >=20.0.0"
   },
   "packageManager": "npm@9.8.1",
   "browserslist": [
