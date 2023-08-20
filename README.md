@@ -42,10 +42,8 @@ npm run dev
 | Action        | Command                 | Description                                               |
 | ------------- | ----------------------- | --------------------------------------------------------- |
 | dev           | `npm run dev`           | Start a development server                                |
-| dev-host      | `npm run dev-host`      | Start a development server and host                       |
 | build         | `npm run build`         | Create a production build into "dist"                     |
 | preview       | `npm run preview`       | Start a local server to preview production build          |
-| preview-host  | `npm run preview-host`  | Start a local server to preview production build and host |
 | start         | `npm run start`         | Start a dev server and open in web browser                |
 | lint          | `npm run lint`          | Run static code analysis                                  |
 | test          | `npm run test`          | Run unit tests and exit                                   |
