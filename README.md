@@ -8,7 +8,7 @@ ChatGPT Chatbot Experiments with OpenAI's public API.
 
 Install [Node.js](https://nodejs.org/en/download/) and create an [OpenAI API key](https://platform.openai.com/account/api-keys).
 
-Create a file named `.env` in both the root and `cli` directory with the following contents:
+Create a file named `.env` in the root directory with the following contents:
 
 ```
 OPENAI_API_KEY=YOURKEY
