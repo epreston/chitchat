@@ -10,7 +10,7 @@ Install [Node.js](https://nodejs.org/en/download/) and create an [OpenAI API key
 
 Create a file named `.env` in the root directory with the following contents:
 
-```
+```sh
 OPENAI_API_KEY=YOURKEY
 ```
 
