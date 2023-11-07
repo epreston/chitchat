@@ -20,5 +20,11 @@
   },
   "cSpell.words": [
     "openai"
+  ],
+  "cSpell.ignoreWords": [
+    "YOURKEY",
+    "epreston",
+    "picocolors",
+    "readline"
   ]
 }

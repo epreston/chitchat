@@ -16,17 +16,8 @@ node_modules
 # Optional npm cache directory
 .npm
 
-# Test coverage reports
-coverage
-
-# Distribution Directory
-dist/*
-
 # Optional eslint cache
 .eslintcache
-
-# TypeScript cache
-*.tsbuildinfo
 
 # ignore non-npm lockfiles
 pnpm-lock.yaml

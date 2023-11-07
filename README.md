@@ -17,9 +17,6 @@ OPENAI_API_KEY=YOURKEY
 Validate the API key and configuration using the CLI:
 
 ```bash
-# move to cli directory
-cd cli
-
 # install dependencies
 npm install
 
@@ -27,36 +24,29 @@ npm install
 npm run start
 ```
 
-Run web application using the following commands:
+## NPM
 
-```bash
-# install dependencies
-npm install
+| Action     | Command              | Description                    |
+| ---------- | -------------------- | ------------------------------ |
+| start      | `npm run start`      | CLI ChatGPT Chatbot Experiment |
+| lint       | `npm run lint`       | Run static code analysis       |
+| format     | `npm run format`     | Check source file formatting   |
+| format-fix | `npm run format-fix` | Format source files            |
 
-# start a local server in development mode
-npm run dev
-```
+## Libraries
 
-## Commands
-
-| Action        | Command                 | Description                                      |
-| ------------- | ----------------------- | ------------------------------------------------ |
-| dev           | `npm run dev`           | Start a development server                       |
-| build         | `npm run build`         | Create a production build into "dist"            |
-| preview       | `npm run preview`       | Start a local server to preview production build |
-| start         | `npm run start`         | Start a dev server and open in web browser       |
-| lint          | `npm run lint`          | Run static code analysis                         |
-| test          | `npm run test`          | Run unit tests and exit                          |
-| test-watch    | `npm run test-watch`    | Run unit tests and watch for changes             |
-| test-coverage | `npm run test-coverage` | Generate a test coverage report                  |
+| Library       | Reference                                    |
+| ------------- | -------------------------------------------- |
+| openai        | https://github.com/openai/openai-node        |
+| dotenv        | https://github.com/motdotla/dotenv           |
+| picocolors    | https://github.com/alexeyraspopov/picocolors |
+| readline-sync | https://github.com/anseki/readline-sync      |
 
 ## Tools
 
 | Item         | Reference                |
 | ------------ | ------------------------ |
 | Node.js      | https://nodejs.org/      |
-| Vite         | https://vitejs.dev/      |
-| Vitest       | https://vitest.dev/      |
 | ESLint       | https://eslint.org/      |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |

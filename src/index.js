@@ -1,10 +1,10 @@
 import openai from './config/open-ai.js';
 import readlineSync from 'readline-sync';
-import chalk from 'chalk';
+import pico from 'picocolors';
 
 async function main() {
   console.clear();
-  console.log(chalk.bold.green('ChatGPT ChitChat - CTRL+C or type exit'));
+  console.log(pico.green(pico.bold('ChatGPT ChitChat - CTRL+C or type exit')));
 
   const chatHistory = [];
   let doLoop = true;
@@ -15,10 +15,10 @@ async function main() {
   });
 
   const context = [{ role: 'system', content: 'Answer in a brief style.' }];
-  console.log(chalk.grey('System: ') + context[0].content);
+  console.log(pico.gray('System: ') + context[0].content);
 
   while (doLoop) {
-    const userInput = readlineSync.question(chalk.yellow('User: '));
+    const userInput = readlineSync.question(pico.yellow('User: '));
 
     try {
       // Construct messages by iterating over the history
@@ -42,17 +42,17 @@ async function main() {
       const completionText = completion.choices[0].message.content;
 
       if (userInput.toLowerCase() === 'exit') {
-        console.log(chalk.blue('Assistant: ') + completionText);
+        console.log(pico.blue('Assistant: ') + completionText);
         return;
       }
 
-      console.log(chalk.blue('Assistant: ') + completionText);
+      console.log(pico.blue('Assistant: ') + completionText);
 
       // Update history with user input and assistant response
       chatHistory.push(['user', userInput]);
       chatHistory.push(['assistant', completionText]);
     } catch (error) {
-      console.error(chalk.red(error));
+      console.error(pico.red(error));
       process.exit(1);
     }
   }
