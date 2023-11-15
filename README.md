@@ -1,5 +1,7 @@
 # ChitChat
 
+![chitchat](https://github.com/epreston/chitchat/assets/347224/9810dc09-7f3e-44af-b9c8-ac74ffef5db5)
+
 ChatGPT Chatbot Experiments with OpenAI's public API.
 
 [![CI][ci-badge]][ci-url]
