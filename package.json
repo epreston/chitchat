@@ -19,15 +19,15 @@
     "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.0",
-    "@epreston/prettier-config": "^1.0.0",
+    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.0.1",
     "eslint": "^8.53.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.1.0"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
-    "openai": "^4.17.3",
+    "openai": "^4.19.0",
     "picocolors": "^1.0.0",
     "readline-sync": "^1.4.10"
   },
