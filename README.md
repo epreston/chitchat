@@ -26,7 +26,7 @@ npm install
 npm run start
 ```
 
-## NPM
+## Scripts
 
 | Action     | Command              | Description                    |
 | ---------- | -------------------- | ------------------------------ |
@@ -48,8 +48,8 @@ npm run start
 
 | Item         | Reference                |
 | ------------ | ------------------------ |
-| Node.js      | https://nodejs.org/      |
-| ESLint       | https://eslint.org/      |
+| Node.js      | https://nodejs.org       |
+| ESLint       | https://eslint.org       |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |
 
@@ -57,7 +57,7 @@ npm run start
 
 | Item        | Reference                             |
 | ----------- | ------------------------------------- |
-| OpenAI      | https://openai.com/                   |
+| OpenAI      | https://openai.com                    |
 | OpenAI Node | https://github.com/openai/openai-node |
 
 ## License
