@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "chitchat-cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "src/index.js",
   "prettier": "@epreston/prettier-config",
   "scripts": {
