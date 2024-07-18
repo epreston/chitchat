@@ -4,6 +4,7 @@ import sharedConfig from '@epreston/eslint-config';
 export default [
   ...sharedConfig,
   {
+    name: 'project/rules',
     rules: {
       'no-console': 'off',
       'prettier/prettier': 'off'
