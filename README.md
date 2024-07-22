@@ -5,6 +5,7 @@ ChatGPT Chatbot Experiments with OpenAI's public API.
 ![chitchat](https://github.com/epreston/chitchat/assets/347224/9810dc09-7f3e-44af-b9c8-ac74ffef5db5)
 
 [![CI][ci-badge]][ci-url]
+[![License][license-badge]][license-url]
 
 ## Setup
 
@@ -66,3 +67,5 @@ This project is released under the MIT [License](LICENSE).
 
 [ci-badge]: https://github.com/epreston/chitchat/actions/workflows/ci.yml/badge.svg
 [ci-url]: https://github.com/epreston/chitchat/actions
+[license-badge]: https://img.shields.io/npm/l/@chitchat/actions.svg
+[license-url]: LICENSE
