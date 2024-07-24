@@ -3,6 +3,7 @@
   "type": "module",
   "name": "chitchat-cli",
   "version": "0.2.2",
+  "packageManager": "npm@10.7.0",
   "main": "src/index.js",
   "prettier": "@epreston/prettier-config",
   "scripts": {
