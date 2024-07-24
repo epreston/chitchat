@@ -28,12 +28,11 @@ npm run start
 
 ## Scripts
 
-| Action     | Command              | Description                    |
-| ---------- | -------------------- | ------------------------------ |
-| start      | `npm run start`      | CLI ChatGPT Chatbot Experiment |
-| lint       | `npm run lint`       | Run static code analysis       |
-| format     | `npm run format`     | Check source file formatting   |
-| format-fix | `npm run format-fix` | Format source files            |
+| Action | Command          | Description                    |
+| ------ | ---------------- | ------------------------------ |
+| start  | `npm run start`  | CLI ChatGPT Chatbot Experiment |
+| lint   | `npm run lint`   | Run static code analysis       |
+| format | `npm run format` | Format source files            |
 
 ## Libraries
 

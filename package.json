@@ -8,8 +8,7 @@
   "scripts": {
     "start": "node ./src/index.js",
     "lint": "eslint .",
-    "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
-    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
+    "format": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.1.1",
