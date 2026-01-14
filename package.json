@@ -16,15 +16,16 @@
     "format": "prettier --write \"**/*.[tj]s\""
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.1.1",
+    "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
+    "@types/node": "^25.0.8",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "openai": "^4.103.0",
+    "dotenv": "^17.2.3",
+    "openai": "^6.16.0",
     "picocolors": "^1.1.1",
     "readline-sync": "^1.4.10"
   }
