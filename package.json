@@ -6,9 +6,9 @@
   "repository": "github:epreston/chitchat",
   "main": "src/index.js",
   "prettier": "@epreston/prettier-config",
-  "packageManager": "npm@10.8.1",
+  "packageManager": "npm@11.7.0",
   "engines": {
-    "node": "^18.20.4 || ^20.16.0 || >=22.6.0"
+    "node": "^20.19.0 || ^22.21.0 || >=24.12.0"
   },
   "scripts": {
     "start": "node ./src/index.js",
