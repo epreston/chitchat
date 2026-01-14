@@ -3,7 +3,10 @@
   "type": "module",
   "name": "chitchat-cli",
   "version": "0.2.2",
-  "repository": "github:epreston/chitchat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/chitchat.git"
+  },
   "main": "src/index.js",
   "prettier": "@epreston/prettier-config",
   "packageManager": "npm@11.7.0",
