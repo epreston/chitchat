@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.4",
-    "openai": "^6.17.0",
+    "openai": "^6.19.0",
     "picocolors": "^1.1.1",
     "readline-sync": "^1.4.10"
   }
