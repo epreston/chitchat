@@ -22,8 +22,8 @@
     "@epreston/eslint-config": "^2.4.2",
     "@epreston/prettier-config": "^2.1.1",
     "@epreston/tsconfig": "^1.2.2",
-    "@types/node": "^25.7.0",
-    "eslint": "^10.3.0",
+    "@types/node": "^25.9.1",
+    "eslint": "^10.4.0",
     "prettier": "^3.8.3"
   },
   "dependencies": {
