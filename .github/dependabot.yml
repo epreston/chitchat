@@ -9,17 +9,11 @@ updates:
     schedule:
       interval: monthly
 
-    groups:
-      actions-minor:
-        update-types:
-          - minor
-          - patch
-
   # npm dependencies
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: weekly
+      interval: monthly
 
     groups:
       npm-dev:
