@@ -27,7 +27,7 @@
     "prettier": "^3.9.9"
   },
   "dependencies": {
-    "dotenv": "^18.0.5",
+    "dotenv": "^18.0.9",
     "openai": "^7.27.0",
     "picocolors": "^1.1.1",
     "readline-sync": "^1.4.10"
